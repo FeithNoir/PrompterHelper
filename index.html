@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PrompterHelper</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="row">
+    <div class="container column g-2">
+      <h1>PrompterHelper</h1>
+      <div class="content row g-2">
+        <div class="final-prompt column g-1">
+          <label for="finalPrompt">Prompt Final:</label>
+          <div id="finalPrompt" class="final-output" readonly></div>
+        </div>
+
+        <div class="configurations column g-1">
+          <div class="accordion-item">
+            <label for="generalConfig">General</label>
+            <textarea id="generalConfig" class="config-input"></textarea>
+          </div>
+
+          <div class="accordion-item">
+            <label for="characterConfig">Personajes</label>
+            <textarea id="characterConfig" class="config-input"></textarea>
+          </div>
+
+          <div class="accordion-item">
+            <label for="emotionConfig">Emociones</label>
+            <textarea id="emotionConfig" class="config-input"></textarea>
+          </div>
+
+          <div class="accordion-item">
+            <label for="clothingConfig">Vestimenta</label>
+            <textarea id="clothingConfig" class="config-input"></textarea>
+          </div>
+
+          <div class="accordion-item">
+            <label for="actionConfig">Acciones</label>
+            <textarea id="actionConfig" class="config-input"></textarea>
+          </div>
+
+          <div class="accordion-item">
+            <label for="settingConfig">Escenario</label>
+            <textarea id="settingConfig" class="config-input"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer row">
+        Desarrollado por FeithNoir
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
